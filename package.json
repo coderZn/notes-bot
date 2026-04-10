@@ -1,0 +1,23 @@
+{
+  "name": "notes-bot",
+  "version": "1.0.0",
+  "description": "QQ 笔记机器人 - 自动打标签、摘要、存储和检索",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "node dist/index.js"
+  },
+  "keywords": ["notes", "qqbot", "openclaw", "typescript"],
+  "author": "coderzn",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  }
+}
